@@ -1,27 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
 <?import javafx.scene.control.Menu?>
 <?import javafx.scene.control.MenuBar?>
 <?import javafx.scene.control.MenuItem?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1"
-fx:controller="menu.SimpleController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="menu.SimpleController">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
           <Menu mnemonicParsing="false" text="File">
             <items>
-              <MenuItem fx:id="openItem" mnemonicParsing="false" text="Open" />
-                  <MenuItem fx:id="saveItem" mnemonicParsing="false" text="Save" />
+                  <MenuItem fx:id="newItem" mnemonicParsing="false" onAction="#handleMenuAction" text="New" />
+              <MenuItem fx:id="openItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Open" />
+                  <MenuItem fx:id="saveItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Save" />
+                  <MenuItem fx:id="printItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Print" />
+                  <MenuItem fx:id="propertiesItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Properties" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Edit">
             <items>
-              <MenuItem mnemonicParsing="false" text="Copy" />
-                  <MenuItem mnemonicParsing="false" text="Paste" />
+              <MenuItem fx:id="copyItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Copy" />
+                  <MenuItem fx:id="pasteItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Paste" />
+                  <MenuItem fx:id="undoItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Undo" />
+                  <MenuItem fx:id="redoItem" mnemonicParsing="false" onAction="#handleMenuAction" text="Redo" />
             </items>
           </Menu>
           <Menu mnemonicParsing="false" text="Help">
@@ -29,6 +35,13 @@ fx:controller="menu.SimpleController">
               <MenuItem mnemonicParsing="false" text="About" />
             </items>
           </Menu>
+            <Menu mnemonicParsing="false" text="View">
+              <items>
+                <MenuItem fx:id="zoomInItem" onAction="#handleMenuAction" mnemonicParsing="false" text="Zoom In" />
+                  <MenuItem fx:id="zoomOutItem" onAction="#handleMenuAction" mnemonicParsing="false" text="Zoom Out" />
+                  <MenuItem fx:id="toggleFSItem" onAction="#handleMenuAction" mnemonicParsing="false" text="Toggle Fullscreen" />
+              </items>
+            </Menu>
         </menus>
       </MenuBar>
    </top>
