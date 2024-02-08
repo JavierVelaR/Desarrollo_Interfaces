@@ -20,6 +20,5 @@ module javaFX {
 	opens calculadora to javafx.graphics, javafx.fxml;
 	opens iva to javafx.graphics, javafx.fxml;
 	opens formulario to javafx.graphics, javafx.fxml;
-	opens menu to javafx.graphics, javafx.fxml;
-
+	opens calculadoraVisual to javafx.graphics, javafx.fxml;
 }

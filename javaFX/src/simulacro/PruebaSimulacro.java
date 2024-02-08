@@ -1,4 +1,4 @@
-package application;
+package simulacro;
 
 import javax.swing.*;
 import java.awt.GridLayout;
