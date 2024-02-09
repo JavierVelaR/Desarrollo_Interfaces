@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.ChoiceBox?>
@@ -16,8 +21,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
    <top>
       <MenuBar BorderPane.alignment="CENTER">
         <menus>
@@ -54,25 +58,37 @@
                   </Label>
                   <HBox alignment="CENTER" prefHeight="54.0" prefWidth="282.0">
                      <children>
-                        <Label text="Nombre" />
+                        <Label text="Nombre">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin></Label>
                         <TextField />
                      </children>
                   </HBox>
                   <HBox alignment="CENTER" layoutX="10.0" layoutY="29.0" prefHeight="54.0" prefWidth="282.0">
                      <children>
-                        <Label text="Precio" />
+                        <Label text="Precio">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin></Label>
                         <TextField />
                      </children>
                   </HBox>
                   <HBox alignment="CENTER" layoutX="10.0" layoutY="129.0" prefHeight="59.0" prefWidth="282.0">
                      <children>
-                        <Label text="Consola" />
+                        <Label text="Consola">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin></Label>
                         <ChoiceBox prefWidth="150.0" />
                      </children>
                   </HBox>
                   <HBox alignment="CENTER" layoutX="10.0" layoutY="229.0" prefHeight="55.0" prefWidth="282.0">
                      <children>
-                        <Label text="PEGI" />
+                        <Label text="PEGI">
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin></Label>
                         <ChoiceBox prefWidth="150.0" />
                      </children>
                   </HBox>

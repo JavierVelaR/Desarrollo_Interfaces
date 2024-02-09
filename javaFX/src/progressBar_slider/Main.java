@@ -1,4 +1,4 @@
-package videojuegosVisual;
+package progressBar_slider;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -7,10 +7,10 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class Main extends Application{
-
+	
 	public void start(Stage primaryStage) throws Exception {
-		Parent root = FXMLLoader.load(getClass().getResource("progressBar_slider.fxml"));
-		primaryStage.setTitle("ProgressBar y Slider");
+		Parent root = FXMLLoader.load(getClass().getResource("CalculadoraUltima.fxml"));
+		primaryStage.setTitle("Calculadora en JavaFX");
 		primaryStage.setScene(new Scene(root, 650, 400));
 		primaryStage.show();
 	}
@@ -18,5 +18,4 @@ public class Main extends Application{
 	public static void main(String[] args) {
 		launch(args);
 	}
-
 }
