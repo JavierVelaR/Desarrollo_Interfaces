@@ -21,4 +21,5 @@ module javaFX {
 	opens iva to javafx.graphics, javafx.fxml;
 	opens formulario to javafx.graphics, javafx.fxml;
 	opens calculadoraVisual to javafx.graphics, javafx.fxml;
+	opens videojuegosVisual to javafx.graphics, javafx.fxml;
 }
