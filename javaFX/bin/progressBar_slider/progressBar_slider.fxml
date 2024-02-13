@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="progressBar_slider.SimpleController">
+   <children>
+      <Label layoutX="200.0" layoutY="40.0" text="PROGRESS BAR">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <ProgressBar fx:id="progressBar" layoutX="200.0" layoutY="73.0" prefWidth="200.0" progress="0.0" />
+      <Label layoutX="200.0" layoutY="164.0" text="SLIDER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Slider fx:id="slider" layoutX="201.0" layoutY="193.0" prefHeight="14.0" prefWidth="200.0" showTickLabels="true" showTickMarks="true" />
+   </children>
+</Pane>
