@@ -10,8 +10,15 @@ public class Main extends Application{
 
 	public void start(Stage primaryStage) throws Exception {
 		Parent root = FXMLLoader.load(getClass().getResource("Escena6.fxml"));
+		
+        Scene scene = new Scene(root, 650, 400);
+
+        String cssFile = getClass().getResource("style.css").toExternalForm();
+        
+        scene.getStylesheets().add(cssFile);
+        
 		primaryStage.setTitle("Mi Aplicación JavaFX");
-		primaryStage.setScene(new Scene(root, 650, 400));
+		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
 	

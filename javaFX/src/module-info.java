@@ -23,4 +23,6 @@ module javaFX {
 	opens calculadoraVisual to javafx.graphics, javafx.fxml;
 	opens videojuegosVisual to javafx.graphics, javafx.fxml;
 	opens progressBar_slider to javafx.graphics, javafx.fxml;
+	opens ejemploCSS to javafx.graphics, javafx.fxml;
+
 }
