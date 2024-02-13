@@ -1,0 +1,19 @@
+.root{
+	-fx-background-color: #F1C44D;
+}
+
+.limpiar{
+	-fx-background-color: #DAF7A6;
+}
+
+.salir{
+	-fx-background-color: #FF5733;
+}
+
+.porcentaje{
+	-fx-background-color: #0EBAFF;
+}
+
+.label{
+	-fx-color: #B20EFF;
+}

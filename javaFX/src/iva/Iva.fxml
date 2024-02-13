@@ -39,12 +39,12 @@
             </HBox>
             <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
                <children>
-                  <Button id="limpiar" mnemonicParsing="false" onAction="#handleButtonClick" text="Limpiar">
+                  <Button id="limpiar" styleClass="limpiar" mnemonicParsing="false" onAction="#handleButtonClick" text="Limpiar">
                      <font>
                         <Font size="14.0" />
                      </font>
                   </Button>
-                  <Button id="salir" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Salir">
+                  <Button id="salir" styleClass="salir" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Salir">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -60,17 +60,17 @@
       </VBox>
       <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" GridPane.columnIndex="1">
          <children>
-            <Button id="4" mnemonicParsing="false" onAction="#handleButtonClick" text="Iva 4%">
+            <Button id="4" styleClass="porcentaje" mnemonicParsing="false" onAction="#handleButtonClick" text="Iva 4%">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button id="10" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Iva 10%">
+            <Button id="10" styleClass="porcentaje" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Iva 10%">
                <font>
                   <Font size="14.0" />
                </font>
             </Button>
-            <Button id="21" layoutX="10.0" layoutY="40.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Iva 21%">
+            <Button id="21" styleClass="porcentaje" layoutX="10.0" layoutY="40.0" mnemonicParsing="false" onAction="#handleButtonClick" text="Iva 21%">
                <font>
                   <Font size="14.0" />
                </font>
