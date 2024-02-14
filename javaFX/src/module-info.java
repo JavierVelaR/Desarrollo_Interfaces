@@ -8,6 +8,7 @@ module javaFX {
 	opens application to javafx.graphics, javafx.fxml;
 	opens ejExamenJavaFX to javafx.graphics, javafx.fxml;
 	opens simulacroo to javafx.graphics, javafx.fxml;
+	opens simulacro to javafx.graphics, javafx.fxml;
 	opens ej2 to javafx.graphics, javafx.fxml;
 	opens ej3 to javafx.graphics, javafx.fxml;
 	opens ej4 to javafx.graphics, javafx.fxml;
@@ -24,5 +25,6 @@ module javaFX {
 	opens videojuegosVisual to javafx.graphics, javafx.fxml;
 	opens progressBar_slider to javafx.graphics, javafx.fxml;
 	opens ejemploCSS to javafx.graphics, javafx.fxml;
+	opens hilos to javafx.graphics, javafx.fxml;
 
 }

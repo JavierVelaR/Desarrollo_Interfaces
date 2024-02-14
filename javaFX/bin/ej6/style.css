@@ -1,0 +1,20 @@
+.dialog-pane {
+    /* Ejemplo de estilo: fondo gris claro */
+    -fx-background-color: #ff0080;
+}
+
+.label {
+    /* Ejemplo de estilo: texto en negrita */
+    -fx-font-weight: bold;
+     -fx-text-fill: #0000ff; /* Color del texto */
+}
+.root {
+-fx-background-color: #111;
+
+
+}
+.button {
+    /* Ejemplo de estilo: botón con borde redondeado */
+    -fx-background-radius: 15;
+    -fx-background-color: #ffff80
+}

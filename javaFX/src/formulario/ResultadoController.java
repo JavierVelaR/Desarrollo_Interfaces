@@ -8,6 +8,7 @@ public class ResultadoController {
 	@FXML
 	private Label labelResultado;
 
+	@FXML
 	public void mostrarResultado(String resultado) {
 		labelResultado.setText(resultado);
 	}
