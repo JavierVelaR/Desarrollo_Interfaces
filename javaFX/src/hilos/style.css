@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.root{
+	-fx-background-color: #F87EFC;
+
+}
+.label {
+    -fx-text-fill: #1355F6;
+    -fx-font-size: 24px;
+}
