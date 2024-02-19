@@ -9,5 +9,6 @@ module javaFX_BBDD {
 	opens Ejercicio2 to javafx.graphics, javafx.fxml;
 	opens Ejercicio3 to javafx.graphics, javafx.fxml;
 	opens Ejercicio4 to javafx.graphics, javafx.fxml;
+	opens EjAvanzado1 to javafx.graphics, javafx.fxml;
 
 }

@@ -1,4 +1,4 @@
-package Ejercicio1;
+package EjAvanzado1;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -8,20 +8,20 @@ import javafx.stage.Stage;
 
 import java.sql.SQLException;
 
-public class MainEjercicio1 extends Application {
+public class MainEjercicio1Avanzado extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception {
        
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("Ejercicio1.fxml"));
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("Ejercicio1Avanzado.fxml"));
         Parent root = loader.load();
 
         primaryStage.setTitle("Mi Aplicación JavaFX");
-        primaryStage.setScene(new Scene(root, 900, 400));
+        primaryStage.setScene(new Scene(root, 900, 300));
         primaryStage.show();
 
         // Mueve la lógica de la base de datos al controlador
-        String dbURL = "jdbc:mysql://127.0.0.1:17770/dbgametop";
+        String dbURL = "jdbc:mysql://127.0.0.1:17770/cenec";
         String dbUser = "root";
         String dbPassword = "";
 
