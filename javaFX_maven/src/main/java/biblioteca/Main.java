@@ -17,6 +17,7 @@ public class Main extends Application{
 
         primaryStage.setTitle("Biblioteca en JavaFX");
         primaryStage.setScene(new Scene(root, 800, 400));
+        primaryStage.setResizable(false);
         primaryStage.show();
 
         // Mueve la lógica de la base de datos al controlador

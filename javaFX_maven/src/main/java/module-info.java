@@ -6,6 +6,7 @@ module javaFX_maven {
 	requires javafx.fxml;
 	requires javafx.graphics;
 	requires java.persistence;
+	requires org.hibernate.orm.core;
 	
 	opens biblioteca to javafx.graphics, javafx.fxml;
 }

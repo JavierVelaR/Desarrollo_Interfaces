@@ -59,6 +59,18 @@ public class LibroModel {
 
 	}
 	
+	public boolean comprobarLibro(String nombre) throws SQLException {		
+		List<Libro> libros = getAllLibros();
+		
+		for(byte i = 0; i<libros.size();i++) {
+			if (libros.get(i).getNombre().equals(nombre)) {
+				return true;
+			}
+		}
+		return false;
+		
+	}
+	
 	public void close() throws SQLException {
 		conn.close();
 	}

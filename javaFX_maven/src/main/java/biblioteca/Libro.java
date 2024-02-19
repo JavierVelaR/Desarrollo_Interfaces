@@ -88,4 +88,21 @@ public class Libro {
 		this.paginas.set(paginas);
 	}
 
+	/*@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@Column(name="id")
+	private int id;
+	
+	@Column(name="nombre")
+	private String nombreLibro = getNombre();
+	
+	@Column(name="editorial")
+	private String editorialLibro = getEditorial();
+	
+	@Column(name="autor")
+	private String autorLibro = getAutor();
+	
+	@Column(name="paginas")
+	private int paginasLibro = getPaginas();
+	*/
 }
